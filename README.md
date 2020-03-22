@@ -1,5 +1,3 @@
-# Dexcraft
-
 Dexter's Minecraft server
 
 ## Installing Minecraft
