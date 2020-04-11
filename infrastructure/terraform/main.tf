@@ -7,23 +7,11 @@ module "server" {
   vpc_id    = local.vpc_id
 }
 
-resource "aws_default_vpc" "default" {
-  tags = {
-    Name = "Default VPC"
-  }
-}
+module "instance_scheduler" {
+  source = "./instance_scheduler"
 
-data "aws_subnet_ids" "default" {
-  vpc_id = aws_default_vpc.default.id
-}
+  ec2_instance_id = local.server_id
 
-locals {
-  aws_region = "eu-west-1"
-  vpc_id     = aws_default_vpc.default.id
-
-  subnet_ids   = data.aws_subnet_ids.default.ids
-  first_subnet =  element(tolist(local.subnet_ids), 0)
-
-  key_name  = "dexcraft"
-  bucket_id = "backup-dexcraft"
+  start_schedule_expression = "cron(0 18 ? * Sat-Sun *)" //"cron(0 18 * * 7 *)"
+  stop_schedule_expression  = "cron(30 19 ? * Sat-Sun *)" //"cron(30 19 * * 7 *)"
 }

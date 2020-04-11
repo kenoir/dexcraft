@@ -4,7 +4,7 @@
 
 ### Intellij+all ###
 .idea/*
- *.iml
+*.iml
 
 ### Terraform ###
 # Local .terraform directories
@@ -37,3 +37,5 @@ override.tf.json
 # example: *tfplan*
 
 # End of https://www.gitignore.io/api/terraform,intellij+all
+
+venv

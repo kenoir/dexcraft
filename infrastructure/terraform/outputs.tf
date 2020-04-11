@@ -1,3 +1,3 @@
 output "public_ip" {
-  value = module.server.public_ip
+  value = local.public_ip
 }
