@@ -7,20 +7,15 @@ To get access you will need to give Dexter your Minecraft username to be added t
 ### Times to play
 
 The server is online between:
-- 3:15pm - 6:30pm GMT weekdays.
-- 9:30am to 6:30pm Saturday and Sunday.
+- 5:30am to 6:30pm Saturday and Sunday.
 
 At other times the server will automatically switch itself off!
 
 ## Installing Minecraft
 
-You will need the java version of Minecraft at version 1.12.2.
+You will need the java version of Minecraft at version 1.15.2.
 
-We recommend using [ATLauncher](https://atlauncher.com/downloads).
-
-Once you have installed ATLauncher you will need to install the correct Minecraft version.
-
-![Install](install.png) 
+You can install it from [minecraft.net](https://www.minecraft.net/en-us/download).
 
 ## Using the Server
 
