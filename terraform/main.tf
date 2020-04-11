@@ -12,6 +12,6 @@ module "instance_scheduler" {
 
   ec2_instance_id = local.server_id
 
-  start_schedule_expression = "cron(0 18 ? * Sat-Sun *)" //"cron(0 18 * * 7 *)"
-  stop_schedule_expression  = "cron(30 19 ? * Sat-Sun *)" //"cron(30 19 * * 7 *)"
+  start_schedule_expression = "cron(0 18 ? * Sat-Sun *)"
+  stop_schedule_expression  = "cron(30 19 ? * Sat-Sun *)"
 }

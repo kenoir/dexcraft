@@ -12,5 +12,5 @@ data "aws_route53_zone" "dexcraft_net" {
 
 resource "aws_eip" "fixed_ip" {
   instance = local.server_id
-  vpc = true
+  vpc      = true
 }
