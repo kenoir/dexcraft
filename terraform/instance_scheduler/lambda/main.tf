@@ -8,7 +8,7 @@ resource "aws_lambda_function" "lambda" {
   filename      = data.archive_file.lambda.output_path
   function_name = var.name
   role          = aws_iam_role.lambda.arn
-  handler       = "stop.lambda_handler"
+  handler       = var.handler
 
   source_code_hash = filebase64sha256(data.archive_file.lambda.output_path)
 
