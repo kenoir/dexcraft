@@ -1,8 +1,6 @@
 module "server" {
   source = "git@github.com:kenoir/terraform-aws-minecraft.git"
 
-  mc_version = "1.15.2"
-
   bucket_id = local.bucket_id
   key_name  = local.key_name
   subnet_id = local.first_subnet
