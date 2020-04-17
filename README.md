@@ -2,6 +2,8 @@
 
 Welcome to Dexter's Minecraft server!
 
+![Screenshot](2020-04-17_17.16.40.png) 
+
 To get access you will need to give Dexter your Minecraft username to be added to the server.
 
 ### Times to play
