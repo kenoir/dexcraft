@@ -1,4 +1,4 @@
-## Welcome
+## Dexcraft
 
 Welcome to Dexter's Minecraft server!
 
