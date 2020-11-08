@@ -8,13 +8,13 @@ To get access you will need to give Dexter your Minecraft username to be added t
 
 ### Times to play
 
-The server is online between **5:30pm to 6:30pm Saturday and Sunday**.
+The server is online between **4:30pm to 5:30pm Saturday and Sunday**.
 
 At other times the server will automatically switch itself off!
 
 ## Installing Minecraft
 
-You will need the **java version** of Minecraft at version 1.15.2. Unfortunately this isn't compatible with the tablet or phone versions.
+You will need the latest **java version** of Minecraft. Unfortunately this isn't compatible with the tablet, phone or console versions.
 
 You can install it from [minecraft.net](https://www.minecraft.net/en-us/download).
 
