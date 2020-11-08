@@ -26,7 +26,7 @@ When you start Minecraft, click "Multiplayer", "Add Server" and use these detail
 
 ![Install](multiplayer.png) 
 
-You will need to be whitelisted in order to access the server, so _just ask Dexter_.
+You will need to be added to the list of approved players in order to access the server, so _just ask Dexter_.
 
 ## Troubleshooting
 
